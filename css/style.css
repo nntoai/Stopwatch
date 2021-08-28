@@ -1,6 +1,8 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
+
+
 .center{
     display: flex;
     text-align: center;
@@ -24,4 +26,16 @@
 h1{
     font-size: 50px;
     color:rgb(135, 250, 4);
+}
+@media screen and (max-width: 400px) {
+    h1{
+        font-size: 40px;
+        
+    }
+    .main div{
+        font-size: 50px;
+    }
+    .main button{
+        margin: 0 5px;
+    }
 }
